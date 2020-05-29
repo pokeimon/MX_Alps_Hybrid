@@ -1,4 +1,4 @@
-(module MXOnly-2U-Hotswap-ReversedStabilizers (layer F.Cu) (tedit 5C4555E0)
+(module MXOnly-2U-Hotswap-ReversedStabilizers (layer F.Cu) (tedit 5ED16211)
   (attr smd)
   (fp_text reference REF** (at 0 3.048) (layer B.CrtYd)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -42,4 +42,9 @@
   (pad "" np_thru_hole circle (at -11.938 6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.938 -8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -11.938 -8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/MX_Alps_Hybrid.pretty/MX_Only.pretty/Kailh_Hotswap_3d_Model.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
